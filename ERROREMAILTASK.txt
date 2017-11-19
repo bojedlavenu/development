@@ -1,0 +1,33 @@
+TITLE: Expression Builder
+------------------------------
+
+Expression cannot be evaluated.
+
+For help, click: http://go.microsoft.com/fwlink?ProdName=Microsoft%C2%AE%20Visual%20Studio%C2%AE%202010&ProdVer=10.0.40219.1&EvtSrc=Microsoft.DataTransformationServices.Controls.TaskUIFramework.TaskUIFrameworkSR&EvtID=FailToEvaluateExpression&LinkId=20476
+
+------------------------------
+ADDITIONAL INFORMATION:
+
+The variable "User::EnvironemntName" was not found in the Variables collection. The variable might not exist in the correct scope.
+
+Attempt to parse the expression ""EXEC msdb.dbo.sp_send_dbmail
+ @profile_name = '"+ @[User::Mailprofile] +"', 
+@recipients = '"+ @[User::Recipients]  +"',"
++"
+ @body = "+"'Hi All,"+"
+Error Information is below
+Error Code:" + (DT_STR,0,1252) @[System::ErrorCode] +"
+Task Name:"+ @[System::SourceName]  +"
+Error Description:" + @[System::ErrorDescription]  +
+"Thank you
+IT Team"
++"',
+@subject = '"+  @[System::PackageName] + " failed in  "+ @[User::EnvironemntName]+"'"" failed and returned error code 0xC00470A6. The expression cannot be parsed. It might contain invalid elements or it might not be well-formed. There may also be an out-of-memory error.
+
+ (Microsoft.DataTransformationServices.Controls)
+
+------------------------------
+BUTTONS:
+
+OK
+------------------------------
