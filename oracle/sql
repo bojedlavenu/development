@@ -1,0 +1,2 @@
+select * from tablea
+--to get list of rows
