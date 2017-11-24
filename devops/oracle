@@ -1,0 +1,15 @@
+select  dept id deptname from dept
+
+1 Acc
+<<<<<<< HEAD
+2 cash
+3 checkclearence
+4 It
+5 DBA
+=======
+2 casher
+3 checkclearence
+4 It-technical
+5 DBA-devloper
+>>>>>>> 2ad040e8d2b163516d9c906a08a0dd023e06ca69
+

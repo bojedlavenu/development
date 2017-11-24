@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+select id name sal from emp
+1 praveen 10000
+2 pradeep 20000
+3 venu    5000
+
+=======
+select id name sal from emp
+1 sai     30000
+2 pradeep 20000
+3 venu    50000
+>>>>>>> 4e5b97e09a1ac215fd35f7c559c1e00022998703
