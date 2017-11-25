@@ -1,0 +1,10 @@
+<html>
+<body>
+<h2>javascript statement</h2>
+<p>in html,java script statements are executed by the browser.</p>
+<p id="demo"></p>
+<script>
+document.get element by id("demo").innerHTML="HELLO VENU"
+</script>
+</body>
+</html>
