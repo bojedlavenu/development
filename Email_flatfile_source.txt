@@ -1,1 +1,4 @@
 ID | FNAME | LNAME | ADDRESS|
+1    venu    bojedla  hyderabad
+2    hari    xya      banagalore
+3    sai     zxs      pune   
